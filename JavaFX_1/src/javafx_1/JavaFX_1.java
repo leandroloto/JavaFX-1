@@ -91,18 +91,18 @@ public class JavaFX_1 extends Application{
         */
         ////////////////////////////////////////////////////
         
-        /* CREAR LOGIN */
+        /* CREAR LOGIN POKER  
         
         VBox containerLeft = new VBox();
         //AGREGAMOS NODOS HIJOS IZQUIERDA
         Label labelTitle = new Label("Iniciar Sesión");
         labelTitle.setFont(new Font(40));
-        /*------------*********--------------*/
+        /*------------*********--------------*
         VBox containerLogin = new VBox();
         //AGREGAMOS NODOS HIJOS LOGIN
         Label labelUser = new Label("Usuario:");
         labelUser.setFont(new Font(20)); 
-        /*------------*********--------------*/
+        /*------------*********--------------*
         Label labelPass = new Label("Contraseña");
         labelPass.setFont(new Font(20));
         //cuadros de texto
@@ -160,13 +160,14 @@ public class JavaFX_1 extends Application{
         root.getChildren().addAll(containerLeft,containerRight);
         HBox.setHgrow(containerLeft, Priority.ALWAYS);
         HBox.setHgrow(containerRight, Priority.ALWAYS);
+        */
 
 //        VBox.setMargin(labelUser, new Insets(10, 0, 0, 0));
 //        VBox.setMargin(labelPass, new Insets(10, 0, 0, 0));
 //        VBox.setMargin(btnLogin, new Insets(10, 0, 0, 0));
         
         ////////////////////////////////////////////////////
-        
+        // ---> Parte 7
         
         Scene scene = new Scene(root, 854, 503);
         
